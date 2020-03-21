@@ -1,1 +1,30 @@
 
+Q6. Create a function that has two inputs; 1) a vector (here we will call ‘in’) and 2) an integer (here we will call ‘n’). The function must return a vector as output (here we will call ‘out’). The purpose of the function is to reverse the input vector in chunks of size ‘n’ - the first ‘n’ entries of ‘out’ are the last ‘n’ entries in ‘in’ (and so forth). If the value of ‘n’ causes a chunk less than ‘n’ to be left in ‘in’, please append the remaining entries to out. Examples of appropriate input and output are given in the table below.
+‘in’
+‘n’
+‘out’
+[1, 2, 3, 4, 5]
+1
+[5, 4, 3, 2, 1]
+----------------------------------------------
+[1, 2, 3, 4, 5]
+2
+[4, 5, 2, 3, 1]
+----------------------------------------------
+[1, 2, 3, 4, 5, 6]
+2
+[5, 6, 3, 4, 1, 2]
+----------------------------------------------
+[1, 2, 3, 4, 5, 6]
+3
+[4, 5, 6, 1, 2, 3]
+----------------------------------------------
+[1, 2, 3, 4, 5, 6]
+4
+[3, 4, 5, 6, 1, 2]
+----------------------------------------------
+[19, 34, 59, 2, 45, 83, 20]
+5
+[59, 2, 45, 83, 20, 19, 34]
+----------------------------------------------
+Provide your function.
