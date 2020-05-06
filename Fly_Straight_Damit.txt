@@ -1,0 +1,1 @@
+The scatter plot of this 2 series is absolutely random until the point n=638 and after that point on the plot is disciplined and scatter smooths out into 3 different line.
